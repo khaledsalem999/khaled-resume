@@ -1,0 +1,86 @@
+{
+  "WorkExperience": [
+    {
+      "CompanyName": "Qcentris EG",
+      "From": "11/2017",
+      "To": "9/2021",
+      "StillThere": false,
+      "AboutCompany": "Established in 2011, Qcentris have grown into an international company renowned for our in-depth expertise in enabling digital transformation success. As a leading company focusing on software development, quality assurance, consulting and outsourcing, we serve a wide spectrum of industries",
+      "ProjectsList": [
+        {
+          "ProjectName": "Banque Misr Express Online SME Lending",
+          "Logo": "",
+          "Tasks": [
+            "Interface development and frontend integration with typescript using Angular framework",
+            "RESTful API microservices development with Java/kotlin using spring boot framework",
+            "Qcentris team leading, make sure that tasks are delivered on time and manage the Qcentris team"
+          ]
+        },
+        {
+          "ProjectName": "Banque Misr Express Online SME Onboarding",
+          "Logo": "",
+          "Tasks": [
+            "Interface development and frontend integration with typescript using Angular framework",
+            "Frontend tech lead and advisor",
+            "Reviewing pull requests and code discussions",
+            "Qcentris team leading, make sure that tasks are delivered on time and manage the Qcentris team"
+          ]
+        },
+        {
+          "ProjectName": "Fawry E-payments",
+          "Logo": "",
+          "Tasks": [
+            "Creating and maintaining the backend of a large scale mobile automation framework with Java using Appium"
+          ]
+        },
+        {
+          "ProjectName": "Additiv AG",
+          "Logo": "",
+          "Tasks": [
+            "Creating new features and maintaining post finance's robo advisor app, the app was built on react js library"
+          ]
+        }
+      ],
+      "ReferencesList": [
+        {
+          "name": "Shady El Kady",
+          "position": "Project Tech Lead",
+          "email": "Elkady.shady@gmail.com"
+        },
+        {
+          "name": "Mohamed Awad",
+          "position": "Project Tech Lead",
+          "email": "mawad.eg93@gmail.com"
+        },
+        {
+          "name": "Ahmed El Mahdy",
+          "position": "Head of Qcentris Egypt office",
+          "email": "a.abdeltawab@qcentris.com"
+        }
+      ]
+    },
+    {
+      "CompanyName": "Go Studios Kuwait - Part Time freelance",
+      "From": "4/2021",
+      "To": "6/2021",
+      "StillThere": false,
+      "AboutCompany": "N/A",
+      "ProjectsList": [
+        {
+          "ProjectName": "Go Watches App",
+          "Logo": "",
+          "Tasks": [
+            "Managing the workflow and development of multiple react components and leading the project's FE team"
+          ]
+        }
+      ],
+      "ReferencesList": [
+        {
+          "name": "Shady El Kady",
+          "position": "Project Tech Lead",
+          "email": "Elkady.shady@gmail.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.about-me-container{
+  background-color: #2294e0;
+  overflow-x: hidden !important;
+  color: white;
+}
+
+.summary-container{
+  width: 50%;
+  text-align: center;
+}
+
+.contact-items{
+  color: white;
+  text-decoration: none;
+  &:hover{
+    color: white;
+    text-decoration: underline;
+  }
+}

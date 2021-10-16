@@ -1,0 +1,56 @@
+{
+  "Technologies": {
+    "ProgrammingLanguages": [
+      "Typescript",
+      "Javascript",
+      "Kotlin",
+      "Java",
+      "Python"
+    ],
+    "FrameworksAndLibraries": [
+      "Angular",
+      "React",
+      "SpringBoot",
+      "Node",
+      "Express",
+      "Django",
+      "React Native"
+    ],
+    "InterfaceDesignLanguages": [
+      "HTML5",
+      "CSS3/SCSS/SASS/LESS",
+      "Material UI"
+    ],
+    "DevopsAndVirtualization": [
+      "Docker",
+      "Kubernetes",
+      "VirtualBox",
+      "Vagrant",
+      "VMWare",
+      "Cloud Code"
+    ],
+    "ScriptingLanguages": [
+      "Bash",
+      "Batch",
+      "PowerShell"
+    ],
+    "DatabasesAndQueryLanguages": [
+      "MySQL",
+      "OracleDB",
+      "PostgreSQL"
+    ],
+    "SupportToolsAndIdes": [
+      "Git Source Control",
+      "Visual Studio Code",
+      "WebStorm",
+      "Intellij Idea"
+    ],
+    "OperatingSystems": [
+      "Debian Linux - Ubuntu/Pop!_OS/Ubuntu Server",
+      "Red Hat Linux - Fedora",
+      "Arch Linux - Manjaro",
+      "Windows",
+      "Mac - Hackintoshes"
+    ]
+  }
+}

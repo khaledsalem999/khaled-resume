@@ -1,0 +1,22 @@
+{
+  "Achievements": [
+    {
+      "name": "Banque Misr's SME Lending Launch",
+      "Date": "08/2020",
+      "Description": "Successfully launching the first SME Lending automation platform in Egypt with Banque Misr's Digital transformation division.",
+      "WebsiteLink": "https://digital.banquemisr.com/sme/"
+    },
+    {
+      "name": "Banque Misr's SME Online Onboarding Launch",
+      "Date": "08/2021",
+      "Description": "Successfully launching the first SME onboarding and account opening platform in Egypt with Banque Misr's Digital transformation division.",
+      "WebsiteLink": "https://digital.banquemisr.com/sme-onboarding/"
+    },
+    {
+      "name": "Fawry's full test automation framework",
+      "Date": "08/2021",
+      "Description": "Successfully delivered a full testing automation framework for android\nand iOS devices to Fawry integrated services, to test up to 12 parallel\ndevices at once to speed up the mobile devices testing process\n",
+      "WebsiteLink": "N/A"
+    }
+  ]
+}

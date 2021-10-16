@@ -1,0 +1,16 @@
+{
+  "Education": [
+    {
+      "InstitutionName": "Misr International University",
+      "Level": "Bachelor in computer science",
+      "From": "09/2013",
+      "To": "08/2017"
+    },
+    {
+      "InstitutionName": "Amal International School IGCSE Sector",
+      "Level": "IGCSE",
+      "From": "09/2010",
+      "To": "04/2013"
+    }
+  ]
+}
