@@ -1,16 +1,48 @@
 .nav-item{
   transition: 0.3s;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  font-size: 12px;
   &:hover{
-    background-color: #2294e0;
-    color: white;
+    color: #68e0cf;
   }
 }
 
 .header-container{
-  background-color: #e0dcdc;
-  position: sticky;
-  top: 0;
-  box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #585d65;
+  position: fixed;
   z-index: 10;
+  height: 80px;
+  border-radius: 80px;
+  margin-top: 40px;
+  left: 50px;
+  right: 50px;
+}
+
+.logo-container{
+  display: block;
+  margin-left: 40px;
+}
+
+.download-button{
+  text-decoration: none;
+  height: 64px;
+  border-radius: 64px;
+  vertical-align: middle;
+  padding: 0 35px;
+  margin-top: 8px;
+  margin-right: 8px;
+  display: flex;
+}
+
+.download-text{
+  color: #68e0cf;
+  font-weight: 800;
+  font-size: 12px;
+  vertical-align: middle;
+  &:hover{
+    color: #68e0cf;
+  }
 }

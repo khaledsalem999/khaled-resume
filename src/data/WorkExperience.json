@@ -1,6 +1,25 @@
 {
   "WorkExperience": [
     {
+      "CompanyName": "CEGEDIM (Egypt Office)",
+      "From": "9/2021",
+      "To": "Present",
+      "StillThere": false,
+      "AboutCompany": "Cegedim offers innovative solutions and services based on a high-quality service infrastructure capable of supporting the needs of its customers.",
+      "ProjectsList": [
+        {
+          "ProjectName": "Mon Logiciel Medical",
+          "Logo": "",
+          "Tasks": [
+            "Interface development and frontend integration with Jsp, javascript and typescript using react",
+            "RESTful API microservices development with Java/kotlin using spring boot framework",
+            "Maintanence of already existing services and components",
+            "maintain a steady delivery cycle each sprint"
+          ]
+        }
+      ]
+    },
+    {
       "CompanyName": "Qcentris EG",
       "From": "11/2017",
       "To": "9/2021",
@@ -72,13 +91,6 @@
           "Tasks": [
             "Managing the workflow and development of multiple react components and leading the project's FE team"
           ]
-        }
-      ],
-      "ReferencesList": [
-        {
-          "name": "Shady El Kady",
-          "position": "Project Tech Lead",
-          "email": "Elkady.shady@gmail.com"
         }
       ]
     }
