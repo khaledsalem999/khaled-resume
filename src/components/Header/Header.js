@@ -1,6 +1,5 @@
 import './Header.scss'
 import logo from 'assets/placeholder-logo.png'
-import downloadIcon from 'assets/download.svg'
 import Button from 'components/Shared/Button/Button'
 
 const Header = () => {
@@ -26,7 +25,7 @@ const Header = () => {
                     <span key={headerItem} className={'nav-item px-4'}>{headerItem}</span>
                 ))}
             </div>
-            <Button buttonText={downloadButtonText} buttonImage={downloadIcon}/>
+            <Button buttonText={downloadButtonText}/>
         </div>
     )
 }

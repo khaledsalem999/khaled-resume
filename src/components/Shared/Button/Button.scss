@@ -12,6 +12,9 @@
     &:hover{
         color: #68e0cf;
         border: 1px solid #68e0cf;
+        .icon-bike{
+            fill : #68e0cf;
+        }
     }
 }
   
@@ -24,7 +27,6 @@
     }
 }
 
-.icon-bike:hover,
-.icon-bike:focus {
-    filter: invert(90%) sepia(16%) saturate(1222%) hue-rotate(106deg) brightness(91%) contrast(92%);
+.icon-bike{
+    transition: 0.3s;
 }

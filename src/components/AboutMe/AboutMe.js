@@ -1,7 +1,10 @@
 import './AboutMe.scss'
+import Button from "../Shared/Button/Button";
 const aboutMeData = require('../../data/GeneralInfo.json')
 
 const AboutMe = () => {
+
+    const contactMeButtonText = 'CONTACT ME'
 
     return(
         <div className={'section started'}>
@@ -12,7 +15,7 @@ const AboutMe = () => {
                         <div className={'h-subtitles'}>
                             <span>{aboutMeData.JobDescription}</span>
                         </div>
-                        <div>
+                        <div className={'h-text mb-5'}>
                             <span>{aboutMeData.Summary}</span>
                         </div>
                     </div>
