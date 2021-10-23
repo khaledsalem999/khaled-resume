@@ -1,5 +1,7 @@
 import './Header.scss'
 import logo from 'assets/placeholder-logo.png'
+import downloadIcon from 'assets/download.svg'
+import Button from 'components/Shared/Button/Button'
 
 const Header = () => {
     const categories = [
@@ -10,7 +12,9 @@ const Header = () => {
         "Certificates",
         "Education",
         "Languages Spoken"
-    ]
+    ];
+
+    const downloadButtonText = "DOWNLOAD CV";
 
     return (
         <div className={'d-flex header-container'}>
@@ -22,9 +26,7 @@ const Header = () => {
                     <span key={headerItem} className={'nav-item px-4'}>{headerItem}</span>
                 ))}
             </div>
-            <div className={'d-block border border-1 download-button'}>
-                <span className="download-text text-decoration-none">DOWNLOAD</span>
-            </div>
+            <Button buttonText={downloadButtonText} buttonImage={downloadIcon}/>
         </div>
     )
 }

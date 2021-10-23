@@ -1,0 +1,30 @@
+.custom-button{
+    text-decoration: none;
+    height: 64px;
+    border-radius: 64px;
+    vertical-align: middle;
+    padding: 0 35px;
+    margin-top: 8px;
+    margin-right: 8px;
+    display: flex;
+    border: 1px solid white;
+    transition: 0.3s;
+    &:hover{
+        color: #68e0cf;
+        border: 1px solid #68e0cf;
+    }
+}
+  
+.text{
+    font-weight: 800;
+    font-size: 12px;
+    vertical-align: middle;
+    &:hover{
+      color: #68e0cf;
+    }
+}
+
+.icon-bike:hover,
+.icon-bike:focus {
+    filter: invert(90%) sepia(16%) saturate(1222%) hue-rotate(106deg) brightness(91%) contrast(92%);
+}

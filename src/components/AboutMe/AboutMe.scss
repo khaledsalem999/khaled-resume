@@ -1,19 +1,57 @@
-.about-me-container{
-  background-color: #2294e0;
-  overflow-x: hidden !important;
-  color: white;
+.section.started .h-title {
+  margin: 40px 0 0 -11vw;
+  padding: 4.2vw;
+  font-size: 4.2vw;
+  line-height: 1.4;
+  font-weight: 800;
+  color: #fff;
+  background: #373b40;
+  word-break: break-word;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 264px;
+  -moz-border-radius: 264px;
+  -webkit-border-radius: 264px;
+  -khtml-border-radius: 264px;
 }
 
-.summary-container{
-  width: 50%;
-  text-align: center;
+.section.started {
+  margin: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  position: relative;
+  overflow: visible;
+  height: 100vh;
+  z-index: 11;
 }
 
-.contact-items{
-  color: white;
-  text-decoration: none;
-  &:hover{
-    color: white;
-    text-decoration: underline;
-  }
+.centrize {
+  display: table !important;
+  table-layout: fixed !important;
+  height: 100% !important;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.vertical-center {
+  display: table-cell !important;
+  vertical-align: middle !important;
+}
+
+.section.started .started-content {
+  padding-left: 60px;
+  max-width: 500px;
+}
+
+.section.started .started-content .h-subtitles {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #68e0cf;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
