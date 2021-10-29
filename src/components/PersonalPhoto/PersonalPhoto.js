@@ -1,5 +1,5 @@
 import './PersonalPhoto.scss';
-import personalPhoto from 'assets/personal_photo.jpg'
+import personalPhoto from 'assets/images/personal_photo.jpg'
 
 const PersonalPhoto = () => {
     return (

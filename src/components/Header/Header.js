@@ -1,5 +1,5 @@
 import './Header.scss'
-import logo from 'assets/placeholder-logo.png'
+import logo from 'assets/images/placeholder-logo.png'
 import Button from 'components/Shared/Button/Button'
 
 const Header = () => {

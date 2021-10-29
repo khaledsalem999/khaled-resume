@@ -1,10 +1,7 @@
 import './AboutMe.scss'
-import Button from "../Shared/Button/Button";
 const aboutMeData = require('../../data/GeneralInfo.json')
 
 const AboutMe = () => {
-
-    const contactMeButtonText = 'CONTACT ME'
 
     return(
         <div className={'section started'}>
@@ -17,6 +14,28 @@ const AboutMe = () => {
                         </div>
                         <div className={'h-text mb-5'}>
                             <span>{aboutMeData.Summary}</span>
+                        </div>
+                        <div className={'d-flex flex-row'}>
+                            <table>
+                                <tr>
+                                    <th className={'entity-text'}>Age:</th>
+                                    <td>{aboutMeData.Age}</td>
+                                </tr>
+                                <tr>
+                                    <th className={'entity-text'}>RESIDENCE:</th>
+                                    <td>{aboutMeData.Address}</td>
+                                </tr>
+                                <tr>
+                                    <th className={'entity-text'}>Phone:</th>
+                                    <td>{aboutMeData.Mobile}</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th className={'entity-text'}>Email:</th>
+                                    <td>{aboutMeData.Email}</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
