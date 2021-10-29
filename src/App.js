@@ -11,7 +11,8 @@ function App() {
           <div className={'wrapper'}>
             <PersonalPhoto/>
             <div className={'d-flex flex-column'}>
-              <AboutMe/>
+                <AboutMe/>
+                <Experience/>
             </div>
           </div>
       </div>

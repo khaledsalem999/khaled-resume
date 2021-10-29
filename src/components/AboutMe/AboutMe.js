@@ -4,12 +4,12 @@ const aboutMeData = require('../../data/GeneralInfo.json')
 const AboutMe = () => {
 
     return(
-        <div className={'section started'}>
+        <div className={'section started border-bottom'}>
             <div className={'centrize full-width'}>
                 <div className={'vertical-center'}>
                     <h1 className={'h-title'}>{aboutMeData.Name}</h1>
-                    <div className={'started-content'}>
-                        <div className={'h-subtitles entity-text'}>
+                    <div className={'started-content py-0'}>
+                        <div className={'mb-4 entity-text'}>
                             <span>{aboutMeData.JobDescription}</span>
                         </div>
                         <div className={'h-text mb-5'}>

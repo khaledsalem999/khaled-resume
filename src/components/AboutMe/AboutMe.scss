@@ -1,10 +1,6 @@
 .section.started .h-title {
   margin: 40px 0 0 -11vw;
   padding: 4.2vw;
-  font-size: 4.2vw;
-  line-height: 1.4;
-  font-weight: 800;
-  color: #fff;
   background: #373b40;
   word-break: break-word;
   -ms-word-wrap: break-word;
@@ -39,16 +35,6 @@
 .vertical-center {
   display: table-cell !important;
   vertical-align: middle !important;
-}
-
-.section.started .started-content {
-  padding-left: 60px;
-  max-width: 500px;
-}
-
-.section.started .started-content .h-subtitles {
-  display: inline-block;
-  margin-bottom: 30px;
 }
 
 .table-sizing {
