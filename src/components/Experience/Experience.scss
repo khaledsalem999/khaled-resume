@@ -1,9 +1,5 @@
-.experience-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.experience-item {
-  width: 500px;
-  margin: 50px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
 }
