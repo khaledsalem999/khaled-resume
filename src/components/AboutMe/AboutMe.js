@@ -9,13 +9,13 @@ const AboutMe = () => {
                 <div className={'vertical-center'}>
                     <h1 className={'h-title'}>{aboutMeData.Name}</h1>
                     <div className={'started-content'}>
-                        <div className={'h-subtitles'}>
+                        <div className={'h-subtitles entity-text'}>
                             <span>{aboutMeData.JobDescription}</span>
                         </div>
                         <div className={'h-text mb-5'}>
                             <span>{aboutMeData.Summary}</span>
                         </div>
-                        <div className={'d-flex flex-row'}>
+                        <div className={'d-flex justify-content-between table-sizing'}>
                             <table>
                                 <tr>
                                     <th className={'entity-text'}>Age:</th>
@@ -29,8 +29,6 @@ const AboutMe = () => {
                                     <th className={'entity-text'}>Phone:</th>
                                     <td>{aboutMeData.Mobile}</td>
                                 </tr>
-                            </table>
-                            <table>
                                 <tr>
                                     <th className={'entity-text'}>Email:</th>
                                     <td>{aboutMeData.Email}</td>

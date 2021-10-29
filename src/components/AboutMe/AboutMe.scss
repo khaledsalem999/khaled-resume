@@ -48,10 +48,12 @@
 
 .section.started .started-content .h-subtitles {
   display: inline-block;
-  font-size: 14px;
-  line-height: 1.2;
-  color: #68e0cf;
-  font-weight: 600;
-  text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.table-sizing {
+  line-height: 2.0;
+  td{
+    padding-left: 30px !important;
+  }
 }
