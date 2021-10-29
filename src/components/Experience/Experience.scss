@@ -3,3 +3,7 @@
   grid-template-columns: auto auto;
   padding: 10px;
 }
+
+.jobs-transition{
+  transition: transform .35s ease-in-out;
+}
