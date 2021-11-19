@@ -30,8 +30,10 @@ const Experience = () => {
                 <span className={'h-title mb-2'}>Experience</span>
             </div>
             <div className={'d-flex justify-content-center mb-4'}>
-                <Button isImageButton={true} imageObject={leftArrow} registerClick={jobNumIncrease}/>
-                <Button isImageButton={true} imageObject={rightArrow} registerClick={jobNumDecrease}/>
+                <span className={'entity-text my-auto d-block recent-text'}>Recent Experience</span>
+                <Button isImageButton={true} imageObject={leftArrow} registerClick={jobNumDecrease}/>
+                <Button isImageButton={true} imageObject={rightArrow} registerClick={jobNumIncrease}/>
+                <span className={'entity-text my-auto d-block past-text'}>Past Experience</span>
             </div>
             <div className={'d-flex flex-column mb-4 jobs-transition'}>
                 <span className={'s-title'}>{jobs[currentJobNum].CompanyName}</span>

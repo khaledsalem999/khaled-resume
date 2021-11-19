@@ -4,7 +4,7 @@ const aboutMeData = require('../../data/GeneralInfo.json')
 const AboutMe = () => {
 
     return(
-        <div className={'section started border-bottom'}>
+        <div className={'section started'}>
             <div className={'centrize full-width'}>
                 <div className={'vertical-center'}>
                     <h1 className={'h-title'}>{aboutMeData.Name}</h1>
