@@ -1,14 +1,30 @@
 import './Button.scss'
 
-const Button = (props) => {
+const Button = ({buttonText, isImageButton = false, imageObject, registerClick}) => {
 
-    return (
-        <div className={'d-flex justify-content-center flex-column custom-button'}>
-            <span className="text text-decoration-none">
-                {props.buttonText}
-            </span>
-        </div>
-    )
+    const textButton = () => {
+        return (
+            <button className={'d-flex justify-content-center flex-column custom-button'} onClick={registerClick}>
+                <span className="text text-decoration-none">
+                    {buttonText}
+                </span>
+            </button>
+        )
+    }
+
+    const imageButton = () => {
+        return (
+            <button className={'d-flex justify-content-center flex-column custom-button'} onClick={registerClick}>
+                <img src={imageObject} alt={"button image"}/>
+            </button>
+        )
+    }
+
+    if(isImageButton){
+        return imageButton()
+    }else{
+        return textButton()
+    }
 }
 
 export default Button;

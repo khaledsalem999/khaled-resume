@@ -9,6 +9,8 @@
     display: flex;
     border: 1px solid white;
     transition: 0.3s;
+    background-color: transparent;
+    color: white;
     &:hover{
         color: #68e0cf;
         border: 1px solid #68e0cf;

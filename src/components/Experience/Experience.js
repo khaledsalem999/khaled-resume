@@ -1,5 +1,8 @@
 import './Experience.scss'
 import {useState} from "react";
+import Button from 'components/Shared/Button/Button';
+import leftArrow from 'assets/images/left.svg';
+import rightArrow from 'assets/images/right.svg';
 const experienceData = require('../../data/WorkExperience.json');
 
 const Experience = () => {
@@ -26,8 +29,10 @@ const Experience = () => {
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-2'}>Experience</span>
             </div>
-            <button onClick={jobNumIncrease}>increase</button>
-            <button onClick={jobNumDecrease}>Decrease</button>
+            <div className={'d-flex justify-content-center mb-4'}>
+                <Button isImageButton={true} imageObject={leftArrow} registerClick={jobNumIncrease}/>
+                <Button isImageButton={true} imageObject={rightArrow} registerClick={jobNumDecrease}/>
+            </div>
             <div className={'d-flex flex-column mb-4 jobs-transition'}>
                 <span className={'s-title'}>{jobs[currentJobNum].CompanyName}</span>
                 <span className={'entity-text mt-2'}>{jobs[currentJobNum].From} - {jobs[currentJobNum].To}</span>
