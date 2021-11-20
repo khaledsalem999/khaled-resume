@@ -3,7 +3,7 @@ import {useState} from "react";
 import Button from 'components/Shared/Button/Button';
 import leftArrow from 'assets/images/left.svg';
 import rightArrow from 'assets/images/right.svg';
-const experienceData = require('../../data/WorkExperience.json');
+const experienceData = require('data/WorkExperience.json');
 
 const Experience = () => {
 
@@ -31,8 +31,8 @@ const Experience = () => {
             </div>
             <div className={'d-flex justify-content-center mb-4'}>
                 <span className={'entity-text my-auto d-block recent-text'}>Recent Experience</span>
-                <Button isImageButton={true} imageObject={leftArrow} registerClick={jobNumDecrease}/>
-                <Button isImageButton={true} imageObject={rightArrow} registerClick={jobNumIncrease}/>
+                    <Button isImageButton={true} imageObject={leftArrow} registerClick={jobNumDecrease}/>
+                    <Button isImageButton={true} imageObject={rightArrow} registerClick={jobNumIncrease}/>
                 <span className={'entity-text my-auto d-block past-text'}>Past Experience</span>
             </div>
             <div className={'d-flex flex-column mb-4 jobs-transition'}>

@@ -1,7 +1,7 @@
 {
   "WorkExperience": [
     {
-      "CompanyName": "CEGEDIM (Egypt Office)",
+      "CompanyName": "Cegedim Santé",
       "From": "9/2021",
       "To": "Present",
       "StillThere": false,
@@ -79,17 +79,17 @@
       ]
     },
     {
-      "CompanyName": "Go Studios Kuwait - Part Time freelance",
+      "CompanyName": "Go Studios Kuwait",
       "From": "4/2021",
       "To": "6/2021",
       "StillThere": false,
-      "AboutCompany": "N/A",
+      "AboutCompany": "Go Studios is a small start up focusing on creating e-Commerce management apps",
       "ProjectsList": [
         {
           "ProjectName": "Go Watches App",
           "Logo": "",
           "Tasks": [
-            "Managing the workflow and development of multiple react components and leading the project's FE team"
+            "(Part time) Managing the workflow and development of multiple react components and leading the project's FE team"
           ]
         }
       ]
