@@ -4,3 +4,9 @@
   display: inline-block;
   border-bottom: 1px solid #585d65;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
