@@ -16,12 +16,10 @@ const Header = (props) => {
     }
 
     const filterRefsList = (index) => {
-        console.log("el da5el "+index);
         if(isOdd(index)){
             index = index*2;
         }
         var noe = 2* Math.floor(index/2) + 1;
-        console.log("el tal3 "+noe);
         refsList[noe].current.scrollIntoView()
     }
 
