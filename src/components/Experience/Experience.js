@@ -3,9 +3,10 @@ import {useState} from "react";
 import Button from 'components/Shared/Button/Button';
 import leftArrow from 'assets/images/left.svg';
 import rightArrow from 'assets/images/right.svg';
+import { useRef } from 'react';
 const experienceData = require('data/WorkExperience.json');
 
-const Experience = () => {
+const Experience = (props) => { 
 
     const [currentJobNum, setCurrentJobNum ] = useState(0);
 
@@ -24,8 +25,11 @@ const Experience = () => {
         }
     }
 
+    const expRef = useRef();
+    props.sendExpRefs(expRef);
+
     return (
-        <div className={'started-content mb-4'}>
+        <div ref={expRef} className={'started-content mb-4'}>
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-2'}>Experience</span>
             </div>

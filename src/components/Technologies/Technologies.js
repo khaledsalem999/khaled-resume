@@ -2,11 +2,16 @@ import './Technologies.scss';
 import Button from "../Shared/Button/Button";
 import leftArrow from "../../assets/images/left.svg";
 import rightArrow from "../../assets/images/right.svg";
+import { useRef } from 'react';
 const technologiesData = require('data/Technologies.json');
 
-const Technologies = () => {
+const Technologies = (props) => {
+
+    const techRef = useRef();
+    props.sendTechRef(techRef);
+
     return (
-        <div className={'started-content'}>
+        <div ref={techRef} className={'started-content'}>
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-4'}>Technologies</span>
             </div>

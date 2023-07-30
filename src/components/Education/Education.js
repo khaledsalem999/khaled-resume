@@ -3,9 +3,13 @@ import './Education.scss'
 import leftArrow from 'assets/images/left.svg';
 import rightArrow from 'assets/images/right.svg';
 import Button from 'components/Shared/Button/Button';
+import { useRef } from 'react';
 const educationData = require('data/Education.json')
 
-const Education = () =>{
+const Education = (props) =>{
+
+    const eduRef = useRef();
+    props.sendEduRef(eduRef);
 
     const [currentEduNum, setCurrentEduNum] = useState(0);
 
@@ -26,7 +30,7 @@ const Education = () =>{
 
 
     return (
-        <div className={'started-content'}>
+        <div ref={eduRef} className={'started-content'}>
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-4'}>Education</span>
             </div>

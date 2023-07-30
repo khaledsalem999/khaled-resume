@@ -1,10 +1,14 @@
 import './AboutMe.scss'
+import { useRef } from 'react';
 const aboutMeData = require('../../data/GeneralInfo.json')
 
-const AboutMe = () => {
+const AboutMe = (props) => {
+
+    const aboutRef = useRef();
+    props.sendAboutRef(aboutRef);
 
     return(
-        <div className={'section started'}>
+        <div ref={aboutRef} className={'section started'}>
             <div className={'centrize full-width'}>
                 <div className={'vertical-center'}>
                     <h1 className={'h-title'}>{aboutMeData.Name}</h1>

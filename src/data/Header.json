@@ -1,0 +1,28 @@
+{
+    "Categories": [
+      {
+        "name": "About Me",
+        "id": "#aboutMe"
+      },
+      {
+        "name": "Work Experience",
+        "id": "#workExperience"
+      },
+      {
+        "name": "Achievements",
+        "id": "#achievements"
+      },
+      {
+        "name": "Technologies Used",
+        "id": "#techUsed"
+      },
+      {
+        "name": "Certificates",
+        "id": "#certs"
+      },
+      {
+        "name": "Education",
+        "id": "#edu"
+      }
+    ]
+  }

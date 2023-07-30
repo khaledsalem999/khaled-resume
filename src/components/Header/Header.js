@@ -1,19 +1,33 @@
 import './Header.scss'
 import logo from 'assets/images/placeholder-logo.png'
 import Button from 'components/Shared/Button/Button'
+const headerData = require('data/Header.json')
 
-const Header = () => {
-    const categories = [
-        "About Me",
-        "Work Experience",
-        "Achievements",
-        "Technologies Used",
-        "Certificates",
-        "Education",
-        "Languages Spoken"
-    ];
+const Header = (props) => {
+
+    const refsList = props.refsList;
+
+    const headers = headerData.Categories;
 
     const downloadButtonText = "DOWNLOAD CV";
+
+    const clickyboi = (data) => {
+        console.log(data)
+    }
+
+    const filterRefsList = (index) => {
+        console.log("el da5el "+index);
+        if(isOdd(index)){
+            index = index*2;
+        }
+        var noe = 2* Math.floor(index/2) + 1;
+        console.log("el tal3 "+noe);
+        refsList[noe].current.scrollIntoView()
+    }
+
+    const isOdd = (number) => {
+        return number => number % 2 !== 0;
+    }
 
     return (
         <div className={'d-flex header-container'}>
@@ -21,8 +35,8 @@ const Header = () => {
                 <img src={logo} height='36'/>
             </div>
             <div className={'m-auto'}>
-                {categories.map(headerItem => (
-                    <span key={headerItem} className={'nav-item px-4'}>{headerItem}</span>
+                {headers.map((headerItem, index) => (
+                    <span onClick={() => filterRefsList(index)} key={headerItem.name} id={headerItem.id} className={'nav-item px-4'}>{headerItem.name}</span>
                 ))}
             </div>
             <Button buttonText={downloadButtonText}/>

@@ -3,9 +3,13 @@ import './Certificates.scss'
 import leftArrow from 'assets/images/left.svg';
 import rightArrow from 'assets/images/right.svg';
 import Button from 'components/Shared/Button/Button';
+import { useRef } from 'react';
 const certificatesData = require('data/Certificates.json')
 
-const Certificates = () =>{
+const Certificates = (props) =>{
+
+    const certsRef = useRef();
+    props.sendCertsRef(certsRef);
 
     const [currentCertNum, setCurrentCertNum] = useState(0);
 
@@ -26,7 +30,7 @@ const Certificates = () =>{
 
 
     return (
-        <div className={'started-content'}>
+        <div ref={certsRef} className={'started-content'}>
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-4'}>Certificates</span>
             </div>

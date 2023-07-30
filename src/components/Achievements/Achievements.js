@@ -1,9 +1,14 @@
 import './Achievements.scss'
+import { useRef } from 'react';
 const achievementsData = require('data/Achievements.json')
 
-const Achievements = () =>{
+const Achievements = (props) =>{
+
+    const achievementsRef = useRef();
+    props.sendAchieveRef(achievementsRef);
+
     return (
-        <div className={'started-content'}>
+        <div ref={achievementsRef} className={'started-content'}>
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-4'}>Achievements</span>
             </div>
