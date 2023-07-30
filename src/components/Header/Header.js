@@ -39,7 +39,7 @@ const Header = (props) => {
                     <span onClick={() => filterRefsList(index)} key={headerItem.name} id={headerItem.id} className={'nav-item px-4'}>{headerItem.name}</span>
                 ))}
             </div>
-            <Button buttonText={downloadButtonText}/>
+            {/* <Button buttonText={downloadButtonText}/> */}
         </div>
     )
 }
