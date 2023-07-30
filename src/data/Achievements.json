@@ -10,12 +10,12 @@
       "name": "Banque Misr's SME Online Onboarding Launch",
       "Date": "08/2021",
       "Description": "Successfully launching the first SME onboarding and account opening platform in Egypt with Banque Misr's Digital transformation division.",
-      "WebsiteLink": "https://digital.banquemisr.com/sme-onboarding/"
+      "WebsiteLink": "https://digital.banquemisr.com/account-opening/"
     },
     {
-      "name": "Fawry's full test automation framework",
+      "name": "A1 Telecom automation testing framework",
       "Date": "08/2021",
-      "Description": "Successfully delivered a full testing automation framework for android\nand iOS devices to Fawry integrated services, to test up to 12 parallel\ndevices at once to speed up the mobile devices testing process\n",
+      "Description": "Successfully delivered a fully coded testing automation framework with fully-functioning GUI that is able to test up to 15 simultaneous android/Ios devices at the same time, which speeds up their testing team’s process by at least 70%.",
       "WebsiteLink": "N/A"
     }
   ]

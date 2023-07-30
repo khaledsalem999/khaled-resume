@@ -18,6 +18,7 @@ const Achievements = (props) =>{
                         <div className={'d-flex flex-column mb-5'}>
                             <span className={'entity-text'}>{achievement.name}</span>
                             <span className={'mt-2'}>{achievement.Description}</span>
+                            <a href={achievement.WebsiteLink} className={'mt-2'}>{achievement.WebsiteLink != "N/A" ? achievement.WebsiteLink : ""}</a>
                         </div>
                     )
                 }
