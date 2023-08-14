@@ -20,11 +20,7 @@ const Header = (props) => {
     const filterRefsList = (index) => {
         headersList[index].current.scrollIntoView()
     }
-
-    const isOdd = (number) => {
-        return number => number % 2 !== 0;
-    }
-
+    
     return (
         <div className={'d-flex header-container'}>
             <div className={'my-auto logo-container'}>
