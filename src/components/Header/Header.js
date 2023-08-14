@@ -1,26 +1,24 @@
 import './Header.scss'
 import logo from 'assets/images/placeholder-logo.png'
 import Button from 'components/Shared/Button/Button'
+import { useEffect, useState } from 'react'
 const headerData = require('data/Header.json')
 
 const Header = (props) => {
 
-    const refsList = props.refsList;
+    //var refsList = props.refsList.filter(e => e.current);
+    const [headersList, setheadersList] = useState();
 
     const headers = headerData.Categories;
 
     const downloadButtonText = "DOWNLOAD CV";
 
-    const clickyboi = (data) => {
-        console.log(data)
-    }
+    useEffect(() => {
+        setheadersList(props.refsList.filter(e => e.current))
+    })
 
     const filterRefsList = (index) => {
-        if(isOdd(index)){
-            index = index*2;
-        }
-        var noe = 2* Math.floor(index/2) + 1;
-        refsList[noe].current.scrollIntoView()
+        headersList[index].current.scrollIntoView()
     }
 
     const isOdd = (number) => {
