@@ -11,6 +11,25 @@
   padding: 10px;
 }
 
+.recent-text{
+  display: block;
+  margin-right: 20px;
+}
+
+.past-text{
+  display: block;
+  margin-left: 10px;
+}
+
+.buttons-arrangment{
+  justify-content: center;
+}
+
+.phone-text-wrapper{
+  display: none;
+}
+
+
 @media screen and (max-width: 480px) {
   .started-content {
     margin-left: auto;
@@ -20,5 +39,32 @@
     flex-direction: column; 
     padding: 0px;
     width: 80%;
+  }
+
+  .past-text{
+    display: none !important;
+  }
+
+  .recent-text{
+    display: none !important;
+  }
+
+  .phone-text-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .buttons-arrangment{
+    justify-content: space-between;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
   }
 }

@@ -34,11 +34,15 @@ const Education = (props) =>{
             <div className={'d-flex flex-column mb-4'}>
                 <span className={'h-title mb-4'}>Education</span>
             </div>
-            <div className={'d-flex justify-content-center mb-4'}>
-                <span className={'entity-text my-auto d-block recent-text'}>Recent Education</span>
+            <div className={'phone-text-wrapper'}>
+                <span className={'entity-text my-auto'}>Recent</span>
+                <span className={'entity-text my-auto'}>Past</span>
+            </div>
+            <div className={'d-flex buttons-arrangment mb-4'}>
+                <span className={'entity-text my-auto recent-text'}>Recent Education</span>
                     <Button isImageButton={true} imageObject={leftArrow} registerClick={eduNumDecrease}/>
                     <Button isImageButton={true} imageObject={rightArrow} registerClick={eduNumIncrease}/>
-                <span className={'entity-text my-auto d-block past-text'}>Past Education</span>
+                <span className={'entity-text my-auto past-text'}>Past Education</span>
             </div>
             <div>
                 <div className={'d-flex table-sizing mb-5'}>

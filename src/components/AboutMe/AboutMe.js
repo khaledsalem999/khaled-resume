@@ -11,7 +11,7 @@ const AboutMe = (props) => {
         <div ref={aboutRef} className={'section started'}>
             <div className={'centrize full-width'}>
                 <div className={'vertical-center'}>
-                    <h1 className={'h-title'}>{aboutMeData.Name}</h1>
+                    <h1 className={'h-title phone-card-view'}>{aboutMeData.Name}</h1>
                     <div className={'started-content border-bottom-0 pb-0'}>
                         <div className={'mb-4 entity-text'}>
                             <span>{aboutMeData.JobDescription}</span>

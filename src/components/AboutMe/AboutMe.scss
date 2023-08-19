@@ -47,14 +47,21 @@
 
 @media screen and (max-width: 480px) {
   .section.started .h-title {
-    margin-left: auto !important;
-    margin-left: auto !important;
+    margin: 0;
     display: flex;
     justify-content: center;
   }
 
   .section.started {
-    height: 74vh !important;
-    margin-top: -100px;
+    height: 100% !important;
+  }
+
+  .centrize {
+    height: 0 !important;
+    margin-bottom: 50px;
+  }
+
+  .phone-card-view{
+    margin-top: -40px !important;
   }
 }
