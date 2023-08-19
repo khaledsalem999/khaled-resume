@@ -18,9 +18,16 @@
   border-radius: 80px;
   left: 50px;
   right: 50px;
+  display: flex;
 }
 
 .logo-container{
   display: block;
   margin-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-container {
+      display: none;
+  }
 }

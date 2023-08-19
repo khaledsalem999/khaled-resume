@@ -34,3 +34,12 @@
     filter: grayscale(100%);
     mix-blend-mode: luminosity;
 }
+
+@media screen and (max-width: 480px) {
+    .background-bg {
+        position: fixed;
+        width: 100%;
+        height: 70%;
+        z-index: -1;
+    }
+}

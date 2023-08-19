@@ -44,3 +44,17 @@
     padding-left: 30px !important;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .section.started .h-title {
+    margin-left: auto !important;
+    margin-left: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section.started {
+    height: 74vh !important;
+    margin-top: -100px;
+  }
+}

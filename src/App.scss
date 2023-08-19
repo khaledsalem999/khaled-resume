@@ -4,3 +4,11 @@
     margin-left: 45%;
     margin-right: 92px;
 }
+@media screen and (max-width: 480px) {
+    .wrapper {
+        margin-top: 400px;
+        margin-left: 0px !important;
+        margin-right: 0px;
+        width: 100%;
+    }
+}

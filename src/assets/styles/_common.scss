@@ -10,3 +10,15 @@
   grid-template-columns: auto auto;
   padding: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .started-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 0px;
+    width: 80%;
+  }
+}

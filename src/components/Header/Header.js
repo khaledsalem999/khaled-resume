@@ -22,7 +22,7 @@ const Header = (props) => {
     }
     
     return (
-        <div className={'d-flex header-container'}>
+        <div className={'header-container'}>
             <div className={'my-auto logo-container'}>
                 <img src={logo} height='36'/>
             </div>

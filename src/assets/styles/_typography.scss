@@ -19,3 +19,15 @@
   font-weight: 600;
   color: #fff;
 }
+
+@media screen and (max-width: 480px) {
+  .h-title{
+    font-size: 10vw;
+    line-height: 1.4;
+    font-weight: 800;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
