@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/khaled-resume/static/css/main.b6eece4b.css",
-    "main.js": "/khaled-resume/static/js/main.243b3b9d.js",
+    "main.css": "/khaled-resume/static/css/main.6610eee8.css",
+    "main.js": "/khaled-resume/static/js/main.2bae0d00.js",
     "static/js/787.29133bc5.chunk.js": "/khaled-resume/static/js/787.29133bc5.chunk.js",
     "static/media/personal_photo.jpg": "/khaled-resume/static/media/personal_photo.938c59daa4b93da327f2.jpg",
     "static/media/placeholder-logo.png": "/khaled-resume/static/media/placeholder-logo.a53d75e0ec336c91008a.png",
     "index.html": "/khaled-resume/index.html",
     "static/media/right.svg": "/khaled-resume/static/media/right.5051f98a06f42741123c7bdf358f4f1e.svg",
     "static/media/left.svg": "/khaled-resume/static/media/left.dee967831b0800bf5c2436e6d47f3fa7.svg",
-    "main.b6eece4b.css.map": "/khaled-resume/static/css/main.b6eece4b.css.map",
-    "main.243b3b9d.js.map": "/khaled-resume/static/js/main.243b3b9d.js.map",
+    "main.6610eee8.css.map": "/khaled-resume/static/css/main.6610eee8.css.map",
+    "main.2bae0d00.js.map": "/khaled-resume/static/js/main.2bae0d00.js.map",
     "787.29133bc5.chunk.js.map": "/khaled-resume/static/js/787.29133bc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6eece4b.css",
-    "static/js/main.243b3b9d.js"
+    "static/css/main.6610eee8.css",
+    "static/js/main.2bae0d00.js"
   ]
 }
