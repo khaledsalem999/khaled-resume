@@ -4,22 +4,18 @@
       "Typescript",
       "Javascript",
       "Kotlin",
-      "Java",
-      "Python"
+      "Java"
     ],
     "FrameworksAndLibraries": [
       "Angular",
       "React",
-      "SpringBoot",
-      "Node",
-      "Express",
-      "Django",
       "React Native"
     ],
     "InterfaceDesignLanguages": [
       "HTML5",
       "CSS3/SCSS/SASS",
-      "Material UI"
+      "Material UI",
+      "Tailwind"
     ],
     "DevopsAndVirtualization": [
       "Docker",

@@ -1,3 +1,13 @@
 .jobs-transition{
   transition: transform .35s ease-in-out;
 }
+
+li {
+  margin: 15px 0px 0px 0px;
+  list-style: disclosure-closed;
+  list-style-position: inside;
+}
+
+ul {
+  padding-left: 0 !important;
+}

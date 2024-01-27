@@ -1,62 +1,52 @@
 {
   "WorkExperience": [
     {
-      "CompanyName": "Cegedim Santé",
+      "CompanyName": "Cegedim Egypt",
       "From": "9/2021",
       "To": "Present",
       "StillThere": false,
       "AboutCompany": "Cegedim offers innovative solutions and services based on a high-quality service infrastructure capable of supporting the needs of its customers.",
       "ProjectsList": [
         {
-          "ProjectName": "Mon Logiciel Medical",
+          "ProjectName": "Vision",
           "Logo": "",
           "Tasks": [
-            "Interface development and frontend integration with Jsp, javascript and typescript using react",
-            "RESTful API microservices development with Java/kotlin using spring boot framework",
-            "Maintenance of already existing services and components",
-            "maintain a steady delivery cycle each sprint"
+            "Leading the frontend side of the patient facing manager (PSM) service for the vision project.",
+            "Developing new product features for PSM and applying knowledge of ReactJS, Redux and NextJs as a result 10 releases have been deployed just-in-time.",
+            "Responsible for code reviews made from the frontend side.",
+            "Creating and managing deployment scripts for node related components using Skaffold, Docker and Kubernetes.",
+            "Improving product aesthetic and UX of the patient service manager web application, resulting in CHI (Customers Happiness Index) increase.",
+            "Resolved technical problems relating to the patient service manager portal, resulting in system performance and scalability improvements."
           ]
         }
       ]
     },
     {
-      "CompanyName": "Qcentris EG",
+      "CompanyName": "Qestit EG (Qcentris EG)",
       "From": "11/2017",
       "To": "9/2021",
       "StillThere": false,
-      "AboutCompany": "Established in 2011, Qcentris have grown into an international company renowned for our in-depth expertise in enabling digital transformation success. As a leading company focusing on software development, quality assurance, consulting and outsourcing, we serve a wide spectrum of industries",
+      "AboutCompany": "Established in 2011, Qestit (Qcentris before) have grown into an international company renowned for our in-depth expertise in enabling digital transformation success. As a leading company focusing on software development, quality assurance, consulting and outsourcing, we serve a wide spectrum of industries",
       "ProjectsList": [
         {
-          "ProjectName": "Banque Misr Express Online SME Lending",
+          "ProjectName": "Banque Misr Digital Transformation Office",
           "Logo": "",
           "Tasks": [
-            "Interface development and frontend integration with typescript using Angular framework",
-            "RESTful API microservices development with Java/kotlin using spring boot framework",
-            "Qcentris team leading, make sure that tasks are delivered on time and manage the Qcentris team"
-          ]
-        },
-        {
-          "ProjectName": "Banque Misr Express Online SME Onboarding",
-          "Logo": "",
-          "Tasks": [
-            "Interface development and frontend integration with typescript using Angular framework",
-            "Frontend tech lead and advisor",
-            "Reviewing pull requests and code discussions",
-            "Qcentris team leading, make sure that tasks are delivered on time and manage the Qcentris team"
-          ]
-        },
-        {
-          "ProjectName": "Fawry E-payments",
-          "Logo": "",
-          "Tasks": [
-            "Creating and maintaining the backend of a large scale mobile automation framework with Java using Appium"
+            "Developing product features for new SME Loaning and corporate onboarding platforms with applying knowledge of Angular, as a result we successfully launched 2 of the biggest banking platforms in the country",
+            "Resolved technical problems relating to the SME Loaning and corporate onboarding portals, resulting in system performance and scalability improvements.",
+            "Participated in code reviews related to the frontend sides of the projects.",
+            "Participated in developing and writing deployment scripts related to the frontend side of the projects using Skaffold, Docker and Kubernetes.",
+            "Was one of the very first starting developers for the digital transformation office of bank misr and successfully delivered 2 highly scaled products that they are still serving 100 thousands of users to this day."
           ]
         },
         {
           "ProjectName": "Additiv AG",
           "Logo": "",
           "Tasks": [
-            "Creating new features and maintaining post finance's robo advisor app, the app was built on react js library"
+            "Developing product features for new Robo advisor sytem with applying knowledge of ReactJS (class components) as a result we successfully did multiple release cycles.",
+            "Resolved technical problems relating to the components managment in react resulting in system performance and scalability improvement.",
+            "Participated in code reviews related to the frontend sides of the projects.",
+            "Created and performed automated tests using cypress as an early adapter."
           ]
         }
       ],
@@ -74,7 +64,7 @@
         {
           "name": "Ahmed El Mahdy",
           "position": "Head of Qcentris Egypt office",
-          "email": "a.abdeltawab@qcentris.com"
+          "email": "a.abdeltawab@qestit.com"
         }
       ]
     },
